@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: samp_data
+    database: samp_db
+    schema: dbt_schema
+    tables:
+      - name: customers
